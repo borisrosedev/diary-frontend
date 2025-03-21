@@ -1,0 +1,35 @@
+{
+  "name": "diary-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "lint": "eslint . --fix",
+    "dev": "webpack serve --open",
+    "build": "webpack",
+    "start": "http-server dist"
+  },
+  "keywords": [],
+  "author": "Boris Rose",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.22.0",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.22.0",
+    "globals": "^16.0.0",
+    "html-webpack-plugin": "^5.6.3",
+    "http-server": "^14.1.1",
+    "raw-loader": "^4.0.2",
+    "reflect-metadata": "^0.2.2",
+    "sass": "^1.86.0",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.2",
+    "typescript-eslint": "^8.27.0",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
