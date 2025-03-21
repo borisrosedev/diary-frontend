@@ -1,0 +1,36 @@
+.custom-figure {
+    overflow: hidden;
+    img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+.tearoom-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 5px rgba($color: #000000, $alpha: 0.6);
+    padding-inline: 10px;
+
+    & > figure {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+    }
+}
+
+.tearoom-main {
+    padding-top: 10vh;
+    display: flex;
+    min-height: 100vh;
+    background-image: url('/assets/images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+}

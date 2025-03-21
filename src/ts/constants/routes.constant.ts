@@ -1,5 +1,7 @@
 import LandingContainer from "../containers/landing/Landing.container";
 import LoginContainer from "../containers/login/Login.container";
+import landingPage from "../ui/pages/landing/landing.page";
+import loginPage from "../ui/pages/login/login.page";
 
 enum Paths {
     Landing = "",

@@ -5,11 +5,12 @@ function landingPage() {
                 id="landing-main"
                 class="tearoom-main landing__main"
             >
-                <section id="landing-section">
-                    
-                </section>
+                <section id="landing-section"></section>
             </main>
         
         `
     );
 }
+
+
+export default landingPage;

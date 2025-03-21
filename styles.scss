@@ -1,2 +1,6 @@
-@use "./src/sass/vendor/bulma";
+@use "./src/sass/vendor/bulma.vendor";
+
+@use "./src/sass/base/base.base";
+
+@use "./src/sass/pages/landing.page";
 

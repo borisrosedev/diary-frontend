@@ -1,6 +1,7 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ConsoleLogOnBuildWebpackPlugin = require('./webpack/plugins/ConsoleLogOnBuildWebpackPlugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     extends: [
@@ -41,6 +42,11 @@ module.exports = {
     },
     plugins: [
         new ConsoleLogOnBuildWebpackPlugin(),
-        new HtmlWebpackPlugin({ template: './index.html' })
+        new HtmlWebpackPlugin({ template: './index.html' }),
+        new CopyPlugin({
+          patterns: [{
+            from: 'assets', to: 'assets'
+          }]
+        })
     ],
 };
