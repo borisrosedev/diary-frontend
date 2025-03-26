@@ -14,7 +14,7 @@ export default class LandingContainer extends BaseContainer<OnNavigateType> {
     init(){
         this.landingFigureSection.innerHTML += figureComponent({
             id: "landing-figure",
-            classNames:'custom-figure', 
+            classNames:'custom-figure landing__figure', 
             src: '/assets/images/logo.webp'
         });
     }

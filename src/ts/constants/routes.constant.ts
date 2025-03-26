@@ -8,6 +8,7 @@ enum Paths {
     Login = "#login",
 }
 
+
 const routes = {
     landing: {
         path: Paths.Landing,

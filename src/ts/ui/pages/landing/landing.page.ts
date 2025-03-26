@@ -3,7 +3,7 @@ function landingPage() {
         `
             <main 
                 id="landing-main"
-                class="tearoom-main landing__main"
+                class="diary-main landing__main"
             >
                 <section id="landing-section"></section>
             </main>

@@ -3,14 +3,16 @@ import figureComponent from "../components/figure/figure.component";
 function headerLayout() {
     return(
         `
-            <header class="tearoom-header">
+            <header class="diary-header">
                 ${figureComponent({
                     id: "header-figure",
                     src:'/assets/images/logo.webp',
-                    alt: 'Image du logo de l\'application TeaRoom'
+                    alt: 'Image du logo de l\'application diary'
                 })}
-                <nav id="tearoom-navbar"></nav>
+                <nav id="diary-navbar"></nav>
             </header>
         `
     );
 }
+
+export default headerLayout;

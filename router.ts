@@ -1,8 +1,8 @@
 import routes from "./src/ts/constants/routes.constant";
-import { OnNavigateType } from "./src/ts/interfaces/onNavigate.type";
+import headerLayout from "./src/ts/ui/layout/header.layout";
 console.log('Sono-Ho-Vado-Faccio-Mangio-Voglio-Posso-Devo');
 
-export default function router<OnNavigateType>(h:string){
+export default function router(h:string){
     const root = document.getElementById('root') as HTMLElement;
     root.innerHTML = "";
     window.history.pushState({}, "", window.location.pathname + h);
@@ -13,6 +13,7 @@ export default function router<OnNavigateType>(h:string){
             new routes.landing.business(window.onNavigate);
             break;
         case routes.login.path:
+            root.innerHTML += headerLayout();
             root.innerHTML += routes.login.ui();
             new routes.login.business(window.onNavigate);
             break;

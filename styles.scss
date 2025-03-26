@@ -2,5 +2,7 @@
 
 @use "./src/sass/base/base.base";
 
-@use "./src/sass/pages/landing.page";
 
+@use "./src/sass/pages/landing.page";
+@use "./src/sass/pages/login.page";
+@use "./src/sass/pages/products.page";

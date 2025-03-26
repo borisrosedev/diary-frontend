@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "tags": ["amour"],
+        "name":"L'envie de vivre encore",
+        "url":"https://images.pexels.com/photos/163194/old-retro-antique-vintage-163194.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "content":"Il est des jours si sombres que mon âme me demande."
+    },
+    {
+        "id": "2",
+        "tags": ["espoir"],
+        "name":"Le monde qui est à nous",
+        "url":"https://images.pexels.com/photos/28982084/pexels-photo-28982084/free-photo-of-livre-douillet-sur-un-couvre-lit-froisse.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "content":"Si je devais aimer, celle qui vite et qui ainsi tout prend."
+    }
+]
